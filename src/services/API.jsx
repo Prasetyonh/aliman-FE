@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://192.53.117.185:3001/api/v1/',
+  baseURL: 'https://alimanboga.prasetyonh.my.id/api/v1/',
   withCredentials: true
 });
 
